@@ -1,3 +1,4 @@
+// Main function for amount input checking and result calculation
 function compute()
 {
     var principal = document.getElementById("principal").value;
@@ -17,6 +18,7 @@ function compute()
     return true;
 }
 
+// Function to show the selected value for rate to apply
 function updateRate() {
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText = rateval+"%";
